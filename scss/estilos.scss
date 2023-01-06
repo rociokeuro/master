@@ -1,0 +1,48 @@
+//Colores
+
+body{
+
+  font-family: 'Raleway';
+}
+$naranja: #F15A24;
+$amarillo: #F7931E;
+$rojo: #ED1C24;
+$texto: #30302C;
+$verde:#6B6C67;
+$oscuro:#60605D;
+
+//Modif colores 
+
+$primary:$naranja;
+$secondary: $amarillo;
+$success:$rojo;
+$danger:$verde;
+$warning:$oscuro;
+$font-family-base:  'Raleway', sans-serif;
+$body-color: $texto;
+//$font-size-root: 15px;
+
+
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  ul {
+    list-style-type: none;
+    
+}
+
+#contactos{
+
+ color:white;
+}
+
+
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
+
+
+
